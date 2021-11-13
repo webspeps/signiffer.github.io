@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for site in sites %}<url>
+    <loc>{{ site.absolute_url }}</loc>
+    {% if site.last_modified %}<lastmod>{{ site.last_modified }}</lastmod>{% endif %}
+  </url>{% endfor %}
+</urlset>
