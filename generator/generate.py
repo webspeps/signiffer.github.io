@@ -24,7 +24,7 @@ class Page(object):
     language: str
     last_mod: datetime.datetime
     phone = "+420 753 258 951"  # TODO: Change
-    email = "info@signiffer.eu"  # TODO: Change
+    email = "info(z)signiffer(t)eu"  # TODO: Change
 
     def keys(self):
         """Get keys that allows conversion of this class to dictionary.
