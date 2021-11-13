@@ -70,33 +70,33 @@ pages = [
          description="Nezisková organizace specializující se na osvětovou a publikační činnost za účelem propagace, podpora a rozvoj celoživotního učení s cílem zvyšování všestranné kvality osobnosti jednotlivce.",  # noqa: E501
          url="index",
          content_file='page_home.html',
-         language="en",
-         last_mod=datetime.datetime(2020, 12, 6)
+         language="cs",
+         last_mod=datetime.datetime(2021, 11, 6)
          ),
-    # Page(title="DComplex Czechia: About us",
-    #      keywords="automation, machine vision, production",  # noqa: E501
-    #      description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
-    #      url="about",
-    #      content_file='page_about.html',
-    #      language="en",
-    #      last_mod=datetime.datetime(2020, 12, 6)
-    #      ),
-    # Page(title="DComplex Czechia: Services",
-    #      keywords="automation, machine vision, production",  # noqa: E501
-    #      description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
-    #      url="services",
-    #      content_file='page_services.html',
-    #      language="en",
-    #      last_mod=datetime.datetime(2020, 12, 6)
-    #      ),
-    # Page(title="DComplex Czechia: Contact",
-    #      keywords="automation, machine vision, production",  # noqa: E501
-    #      description="We can help you with the automation of processes in your factory. Increase your production and cost efficiency with a lite help from our team of experts.",  # noqa: E501
-    #      url="contact",
-    #      content_file='page_contact.html',
-    #      language="en",
-    #      last_mod=datetime.datetime(2020, 12, 6)
-    #      )
+    Page(title="Signiffer z. s.: O nás",
+         keywords="spolek, osvěta, publikace, přednášky",  # noqa: E501
+         description="Nezisková organizace specializující se na osvětovou a publikační činnost za účelem propagace, podpora a rozvoj celoživotního učení s cílem zvyšování všestranné kvality osobnosti jednotlivce.",  # noqa: E501
+         url="about",
+         content_file='page_about.html',
+         language="cs",
+         last_mod=datetime.datetime(2021, 11, 6)
+         ),
+    Page(title="Signiffer z. s.: Co poskytujeme",
+         keywords="spolek, osvěta, publikace, přednášky",  # noqa: E501
+         description="Nezisková organizace specializující se na osvětovou a publikační činnost za účelem propagace, podpora a rozvoj celoživotního učení s cílem zvyšování všestranné kvality osobnosti jednotlivce.",  # noqa: E501
+         url="service",
+         content_file='page_poskytujeme.html',
+         language="cs",
+         last_mod=datetime.datetime(2021, 11, 6)
+         ),
+    Page(title="Signiffer z. s.: Publikace",
+         keywords="spolek, osvěta, publikace, přednášky",  # noqa: E501
+         description="Nezisková organizace specializující se na osvětovou a publikační činnost za účelem propagace, podpora a rozvoj celoživotního učení s cílem zvyšování všestranné kvality osobnosti jednotlivce.",  # noqa: E501
+         url="publikace",
+         content_file='page_publikace.html',
+         language="cs",
+         last_mod=datetime.datetime(2021, 11, 6)
+         )
 ]
 
 # Remove all existing resources
